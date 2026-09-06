@@ -1,0 +1,113 @@
+h1 {
+    color: blue;
+    text-align: center;
+    margin-top: 27%;
+    font-size: 40px;
+}
+h1:hover {
+    color: rgb(17, 0, 255);
+    transform: scale(1.05);
+}
+
+
+.user {
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #d70e0e;
+    border-radius: 5px;
+}
+.user:hover {
+    border-color: aqua;
+    transform: scale(1.05);
+    animation: rainbow 2s infinite alternate;
+}
+
+@keyframes rainbow {
+    0% {
+        border-color: #d70e0e;
+    }
+    20% {
+        border-color: rgb(219, 122, 19);
+        }
+    40% {
+        border-color: rgb(239, 232, 15);
+    }
+    60% {
+        border-color: #11f809;
+    }
+    80% {
+        border-color: rgb(0, 76, 255);
+    }
+    100% {
+        border-color: #f21414;
+    }
+}
+.password {
+    width: 200px;
+    padding: 10px;d70e0e;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid rgba(239, 6, 6, 0.925);
+}
+.password:hover {
+    border-color: rgb(255, 0, 17);
+    transform: scale(1.05);
+    animation: rainbow 2s infinite alternate;
+}
+@keyframes rainbow {
+    0% {
+        border-color: #d70e0e;
+    }
+    20% {
+        border-color: rgb(219, 122, 19);
+        }
+    40% {
+        border-color: rgb(239, 232, 15);
+    }
+    60% {
+        border-color: #11f809;
+    }
+    80% {
+        border-color: rgb(0, 76, 255);
+    }
+    100% {
+        border-color: #f21414;
+    }
+}
+
+#forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #101010;
+    font-size: 14px;
+}
+
+#forgot-password:hover {
+    color: rgb(26, 27, 27);
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff0000, #5d0beb, #ffff00, rgb(217, 19, 161));
+    background-size: 400% 400%;
+    animation: gradientBg 8s ease infinite;
+}
+@keyframes gradientBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
